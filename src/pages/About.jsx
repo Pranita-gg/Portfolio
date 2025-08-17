@@ -10,7 +10,7 @@ const About = () => {
                       <span className='absolute top-1/2 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-blue-400 to-transparent -z-0'></span>
                     </h2>
                     <div className="space-y-6">
-                      {/* Profession */}
+                    
                       <div className="flex items-start space-x-4">
                         <div className="p-3 rounded-full bg-blue-600 text-white">
                           <MdWork className="text-xl" />
