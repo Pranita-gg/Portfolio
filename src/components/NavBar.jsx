@@ -57,6 +57,7 @@ export default function NavBar() {
             >
               Contact
             </Link>
+            
           </div>
         </div>
 
@@ -138,6 +139,7 @@ export default function NavBar() {
           >
             Contact
           </Link>
+          
         </div>
       )}
     </nav>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { MdOutlineScience, MdWork, MdSchool, MdCode, MdDesignServices } from "react-icons/md";
 import { TbBrandJavascript } from "react-icons/tb";
 import { FaReact, FaNodeJs, FaGitAlt, FaFigma } from "react-icons/fa";
-import { SiRedux, SiTailwindcss, SiJavascript, SiTypescript, SiReact, SiNodedotjs,SiGit, SiFigma} from "react-icons/si";
+import { SiRedux, SiTailwindcss, SiJavascript, SiTypescript, SiReact, SiNodedotjs, SiGit, SiFigma } from "react-icons/si";
 
 
 const Home = () => {
@@ -16,8 +16,8 @@ const Home = () => {
             <div className='flex justify-center mb-6'>
               <div className='relative'>
                 <img
-                  src="https://img.freepik.com/premium-vector/avatar-profile-icon-flat-style-female-user-profile-vector-illustration-isolated-background-women-profile-sign-business-concept_157943-38866.jpg"
-                  className='w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-white shadow-lg'
+                  src="Profile.jpg"
+                  className='w-48 h-48 md:w-48 md:h-48 rounded-full object-cover border-4 border-blue-300 shadow-lg'
                 />
                 <div className='absolute -bottom-2 -right-2 bg-blue-500 text-white p-2 rounded-full'>
                   <MdCode className='text-xl' />
@@ -76,49 +76,61 @@ const Home = () => {
                   <p className='text-gray-700'>Various Projects</p>
                   <p className='text-sm text-gray-500 italic'>2020 - Present</p>
                   <p className='text-gray-600 mt-1 '>Contributed to React libraries with 10k + weelky downloads.</p>
-
                 </div>
               </div>
             </div>
           </div>
+          {/* Resume Section */}
+          <div className='px-10 m-4 justify-center items-center'>
+            <a
+              href="/My Cv (1) (5).pdf"
+              className='px-5 py-2.5 rounded-md border-2 border-blue-600 text-blue-600 font-semibold hover:bg-blue-600 hover:text-white transition text-center'
+            >
+              Download CV
+            </a>
 
-
+          </div>
 
           {/* Skills */}
+          <div className="flex items-center justify-center w-full sm:w-auto">
+            <h2 className='font-bold text-xl text-gray-800'>Skills & Technologies</h2>
+
+          </div>
+
           <section className='mx-auto py-6 px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
             <div className='bg-white p-4 rounded-lg shadow hover:shadow-lg transition hover:scale-105 text-center'>
               <SiJavascript className='text-yellow-500 text-4xl mx-auto mb-2' />
               <h4 className='text-lg font-semibold'>JavaScript</h4>
             </div>
-    <div className='bg-white p-4 rounded-lg shadow hover:shadow-lg transition hover:scale-105 text-center'>
-      <SiTypescript className='text-blue-600 text-4xl mx-auto mb-2'/>
-      <h4 className='text-lg font-semibold'>TypeScript</h4>
-    </div>
-    <div className='bg-white p-4 rounded-lg shadow hover:shadow-lg transition hover:scale-105 text-center'>
-      <SiReact className='text-blue-300 text-4xl mx-auto mb-2'/>
-      <h4 className='text-lg font-semibold'>React.js</h4>
-    </div>
-    <div className='bg-white p-4 rounded-lg shadow hover:shadow-lg transition hover:scale-105 text-center'>
-      <SiRedux className='text-purple-400 text-4xl mx-auto mb-2'/>
-      <h4 className='text-lg font-semibold'>Redux</h4>
-    </div>
+            <div className='bg-white p-4 rounded-lg shadow hover:shadow-lg transition hover:scale-105 text-center'>
+              <SiTypescript className='text-blue-600 text-4xl mx-auto mb-2' />
+              <h4 className='text-lg font-semibold'>TypeScript</h4>
+            </div>
+            <div className='bg-white p-4 rounded-lg shadow hover:shadow-lg transition hover:scale-105 text-center'>
+              <SiReact className='text-blue-300 text-4xl mx-auto mb-2' />
+              <h4 className='text-lg font-semibold'>React.js</h4>
+            </div>
+            <div className='bg-white p-4 rounded-lg shadow hover:shadow-lg transition hover:scale-105 text-center'>
+              <SiRedux className='text-purple-400 text-4xl mx-auto mb-2' />
+              <h4 className='text-lg font-semibold'>Redux</h4>
+            </div>
 
-    <div className='bg-white p-4 rounded-lg shadow hover:shadow:lg transition hover:scale-105 text-center'>
-      <SiNodedotjs className='text-green-400 text-4xl mx-auto mb-2'/>
-      <h4 className='text=lg font-semibold'>Node.js</h4>
-    </div>
-    <div className='bg-white p-4 rounded-lg shadow hover:shadow-lg transition hover:scale-105 text-center'>
-      <SiTailwindcss className='text-blue-300 text-4xl mx-auto mb-2'/>
-      <h4 className='text-lg font-semibold'>Tailwind CSS</h4>
-    </div>
-    <div className='bg-white p-4 rounded-lg shadow hover:shadow-lg transition hover:scale-105 text-center'>
-      <SiGit className='text-orange-400 text-4xl mx-auto mb-2'/>
-      <h4 className='text-lg font-semibold'>Git</h4>
-    </div>
-    <div className='bg-white p-4 rounded-lg shadow hover:shadow-lg transition hover:scale-105 text-center'>
-      <SiFigma className='text-purple-400 text-4xl mx-auto mb-2'/>
-      <h4 className='text-lg font-semibold'>Figma</h4>
-    </div>
+            <div className='bg-white p-4 rounded-lg shadow hover:shadow:lg transition hover:scale-105 text-center'>
+              <SiNodedotjs className='text-green-400 text-4xl mx-auto mb-2' />
+              <h4 className='text=lg font-semibold'>Node.js</h4>
+            </div>
+            <div className='bg-white p-4 rounded-lg shadow hover:shadow-lg transition hover:scale-105 text-center'>
+              <SiTailwindcss className='text-blue-300 text-4xl mx-auto mb-2' />
+              <h4 className='text-lg font-semibold'>Tailwind CSS</h4>
+            </div>
+            <div className='bg-white p-4 rounded-lg shadow hover:shadow-lg transition hover:scale-105 text-center'>
+              <SiGit className='text-orange-400 text-4xl mx-auto mb-2' />
+              <h4 className='text-lg font-semibold'>Git</h4>
+            </div>
+            <div className='bg-white p-4 rounded-lg shadow hover:shadow-lg transition hover:scale-105 text-center'>
+              <SiFigma className='text-purple-400 text-4xl mx-auto mb-2' />
+              <h4 className='text-lg font-semibold'>Figma</h4>
+            </div>
 
 
           </section>
