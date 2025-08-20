@@ -1,10 +1,12 @@
 import React from 'react';
+import Aos from 'aos';
+import "aos/dist/aos.css";
 import { MdOutlineScience, MdWork, MdSchool, MdCode, MdDesignServices } from "react-icons/md";
 
 
 const About = () => {
     return (
-         <div className='mt-10 bg-white rounded-2xl shadow-md p-8 hover:shadow-lg transition'>
+         <div data-aos="fade-in" data-aos-duration="1000"className='mt-10 bg-white rounded-2xl shadow-md p-8 hover:shadow-lg transition'>
                     <h2 className='relative text-3xl font-bold text-gray-800 mb-8 text-center'>
                       <span className='relative z-10 px-4 bg-white'>About me</span>
                       <span className='absolute top-1/2 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-blue-400 to-transparent -z-0'></span>

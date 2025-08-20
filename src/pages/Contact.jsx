@@ -1,9 +1,11 @@
 import React from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Contact = () => {
   return (
     <div className="min-h-screen flex items-center justify-center px-4">
-      <div className="w-full max-w-lg bg-white shadow-lg rounded-3xl p-8 m-20">
+      <div data-aos= "fade-up" data-aos-duration="10000" className="w-full max-w-lg bg-white shadow-lg rounded-3xl p-8 m-20">
         {/* Title */}
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-10">
           Contact Us

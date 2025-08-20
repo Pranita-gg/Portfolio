@@ -1,3 +1,13 @@
+import Portfolio from "../assets/images/Portfoliooo.png"
+import Ecommerce from "../assets/images/Elysian.png"
+import Petpal from "../assets/images/Petpal.png"
+import LandRent from "../assets/images/Land rent.webp"
+import Budgetmanagement from "../assets/images/budget.jpg"
+import Beauty from "../assets/images/beuaty.jpeg"
+import Calculator from "../assets/images/calculator.webp"
+import Newsletter from "../assets/images/NewsLetter.jpg"
+
+
 export const projects = [
     {
         id: 1,
@@ -5,7 +15,7 @@ export const projects = [
         description: "This is the website of portfolio",
         link: "https://portfolio-topaz-ten-28.vercel.app/",
         techStack: ["React", "CSS", "Tailwind"],
-        image: "public\Portfoliooo.png"
+        image:Portfolio
     },
     {
         id: 2,
@@ -13,7 +23,7 @@ export const projects = [
         description: "This is the ecommerce website",
         link: "https://github.com/Pranita-gg",
         techStack: ["React", "Node.js"],
-        image: ""
+        image: Ecommerce
     },
     {
         id: 3,
@@ -21,7 +31,7 @@ export const projects = [
         description: "This is the website for animal rescue and adoption",
         link: "https://github.com/Pranita-gg",
         techStack: ["Java", "JSP"],
-        image: ""
+        image: Petpal
 
     },
     {
@@ -30,7 +40,7 @@ export const projects = [
         description: "This is the website for renting lands",
         link: "https://github.com/Pranita-gg",
         techStack: ["Python", "Django"],
-        image: ""
+        image: LandRent
     },
 {
         id: 5,
@@ -38,7 +48,7 @@ export const projects = [
         description: "Helps to manage your budgets ",
         link: "https://github.com/Pranita-gg",
         techStack: ["React", "MongoDB", "Express"],
-        image: ""
+        image: Budgetmanagement
     },
     {
         id: 6,
@@ -46,7 +56,7 @@ export const projects = [
         description: "This is the website for renting lands",
         link: "https://github.com/Pranita-gg",
         techStack: ["React","Java"],
-        image: ""
+        image: Beauty
     },
 {
         id: 7,
@@ -54,14 +64,14 @@ export const projects = [
         description: "This is the website for calculations",
         link: "https://github.com/Pranita-gg",
         techStack: ["Python", "Django"],
-        image: ""
+        image: Calculator
     },
     {
         id: 8,
-        title: "",
-        description: "This is the website for calculations",
+        title: "NewsLetter website",
+        description: "This is the website for newsletter",
         link: "https://github.com/Pranita-gg",
-        techStack: ["Python", "Django"],
-        image: ""
+        techStack: ["HTML", "React", "Node.js"],
+        image: Newsletter
     },
 ]
